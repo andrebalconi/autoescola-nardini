@@ -1,6 +1,7 @@
 # Auto Escola Nardini
 
 ![CircleCI](https://img.shields.io/circleci/build/github/andrebalconi/autoescola-nardini)
+![Codecov](https://img.shields.io/codecov/c/github/andrebalconi/autoescola-nardini)
 
 Este projeto foi desenvolvido durante o curso [React Professional]()
 
