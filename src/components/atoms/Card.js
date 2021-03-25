@@ -50,7 +50,7 @@ CardMedia.propTypes = {
 
 //#endregion
 
-////#region CardMedia
+//#region CardMedia
 const StyledMediaDescription = styled.div`
   background-color: rgba(0, 0, 0, 0.4);
   padding: 8px 16px;
@@ -79,14 +79,14 @@ CardMediaDescription.defaultProps = {
 CardMediaDescription.propTypes = {
   children: PropTypes.node,
 };
-////#endregion
+//#endregion
 
 //#region Card
 
 const StyledCard = styled.div`
   background-color: #fff;
   border-radius: 4px;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: 1px solid ${(props) => props.theme.colors.border};
   overflow: hidden;
 `;
 
