@@ -1,6 +1,7 @@
 import React from "react";
 // import PropTypes from "prop-types";
 import { FaCar, FaKey, FaMapMarkedAlt, FaAccessibleIcon } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 import Hero from "components/molecules/Hero";
 import Heading from "components/atoms/Heading";
@@ -103,15 +104,24 @@ const Home = () => (
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
             modi veritatis voluptatem pariatur fuga in, accusantium recusandae
-            assumenda eum, cumque odio minus quo aut sed molestiae nobis vitae a
+            assumenda cumque odio minus quo aut sed molestiae nobis vitae a
             voluptatibus.
           </p>
           <div>
-            <Button color="primary">Saiba mais</Button>
+            <Button as={Link} to="/sobre" color="primary">
+              Saiba mais
+            </Button>
           </div>
         </div>
         <div>
-          <video src={AboutVideo} width="100%" autoPlay loop muted />
+          <video
+            src={AboutVideo}
+            width="100%"
+            autoPlay
+            playsInline
+            loop
+            muted
+          />
         </div>
       </Grid>
     </Section>
@@ -124,7 +134,7 @@ const Home = () => (
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam
           veritatis autem reprehenderit necessitatibus laborum perspiciatis.
           Repellat mollitia minus, eum eos excepturi quos placeat culpa ea
-          consequuntur facere vel. Consequatur, reiciendis.
+          consequuntur vel. Consequatur, reiciendis.
         </Accordion>
         <Accordion title="Como faço a mudança de categoria?">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam
@@ -135,7 +145,7 @@ const Home = () => (
         <Accordion title="Fui multado, e agora?">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam
           veritatis autem reprehenderit necessitatibus laborum perspiciatis.
-          Repellat mollitia minus, eum eos excepturi quos placeat culpa ea
+          Repellat mollitia minus, eos excepturi quos placeat culpa ea
           consequuntur facere vel. Consequatur, reiciendis.
         </Accordion>
       </AccordionGroup>
