@@ -104,7 +104,7 @@ const Home = () => (
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
             modi veritatis voluptatem pariatur fuga in, accusantium recusandae
-            assumenda eum, cumque odio minus quo aut sed molestiae nobis vitae a
+            assumenda cumque odio minus quo aut sed molestiae nobis vitae a
             voluptatibus.
           </p>
           <div>
@@ -134,7 +134,7 @@ const Home = () => (
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam
           veritatis autem reprehenderit necessitatibus laborum perspiciatis.
           Repellat mollitia minus, eum eos excepturi quos placeat culpa ea
-          consequuntur facere vel. Consequatur, reiciendis.
+          consequuntur vel. Consequatur, reiciendis.
         </Accordion>
         <Accordion title="Como faço a mudança de categoria?">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam
@@ -145,7 +145,7 @@ const Home = () => (
         <Accordion title="Fui multado, e agora?">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam
           veritatis autem reprehenderit necessitatibus laborum perspiciatis.
-          Repellat mollitia minus, eum eos excepturi quos placeat culpa ea
+          Repellat mollitia minus, eos excepturi quos placeat culpa ea
           consequuntur facere vel. Consequatur, reiciendis.
         </Accordion>
       </AccordionGroup>
