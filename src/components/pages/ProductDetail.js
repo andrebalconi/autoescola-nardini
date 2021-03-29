@@ -17,7 +17,7 @@ import Callout, {
 import HeroImage from "assets/hero.jpg";
 import SpeedImage from "draws/Speed";
 import BreadCrumb from "components/atoms/BreadCrumb";
-import ProductType from "types/ProductType";
+import ProductType from "models/types/ProductType";
 
 const PinnedList = styled.ul`
   list-style: none;

@@ -7,7 +7,7 @@ import Grid from "components/atoms/Grid";
 import Card, { CardMedia, CardBody } from "components/atoms/Card";
 import Heading from "components/atoms/Heading";
 import Button from "components/atoms/Button";
-import ProductType from "types/ProductType";
+import ProductType from "models/types/ProductType";
 
 const Toolbar = styled.div`
   margin-top: 40px;

@@ -14,7 +14,7 @@ import ProductGrid from "components/organisms/ProductGrid";
 import Accordion, { AccordionGroup } from "components/atoms/Accordion";
 
 import HeroImage from "assets/hero.jpg";
-import ProductType from "types/ProductType";
+import ProductType from "models/types/ProductType";
 
 import AboutVideo from "assets/about.mp4";
 
