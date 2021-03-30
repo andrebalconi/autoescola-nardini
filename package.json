@@ -1,6 +1,6 @@
 {
   "name": "autoescola-nardini",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "dependencies": {
     "@storybook/addon-actions": "^6.1.21",
@@ -16,6 +16,7 @@
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.1",
     "chromatic": "^5.6.3",
+    "faker": "^5.5.1",
     "history": "^5.0.0",
     "jest-styled-components": "^7.0.3",
     "levenary": "^1.1.1",
